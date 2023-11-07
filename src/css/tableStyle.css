@@ -1,0 +1,61 @@
+.table-container {
+    width: 100%;
+    height: 70%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .table-title {
+    color: white;
+    font-weight: bold;
+  }
+  
+  .custom-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .custom-table th, .custom-table td {
+    border: 1px solid #000;
+    padding: 10px;
+    font-family: sans-serif;
+    font-size: 12px;
+  }
+  
+  .custom-table th {
+    background-color: #333;
+    color: white;
+  }
+  
+  .custom-table tbody tr:nth-child(even) {
+    background-color: #d99e51;
+  }
+
+  .acciones {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btnEdit {
+    font-size: 10px;
+    background-color: rgb(94, 121, 138);
+  }
+
+  .btnEdit:hover{
+    background-color: #091f40;
+  }
+
+  .btnDelete {
+    font-size: 10px;
+    background-color: rgb(168, 110, 110);
+  }
+
+  .btnDelete:hover {
+    background-color: rgb(73, 25, 25);
+  }
+
+  .coverage {
+    font-size: 10px !important;
+  }

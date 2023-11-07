@@ -1,0 +1,75 @@
+body {
+  background-color: #1e1e1e;
+}
+.navbar {
+  background-color: #010c1d; 
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0; 
+  position: fixed; 
+  height: 45px;
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  z-index: 999; 
+}
+
+.brand {
+  font-size: 34px;
+  font-weight: bold;
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.brand:hover {
+  color: chocolate;
+}
+
+.linkInsurance {
+  color: #fff;
+  list-style: none;
+  text-decoration: none;
+}
+
+.linkInsurance:hover{
+  color: chocolate;
+}
+
+.insuranceItem {
+  font-size: 20px;
+  margin-left: 50px;
+}
+
+.search {
+  flex-grow: 1;
+  margin: 0 20px;
+}
+
+.txtSearch {
+  margin-left: 50px;
+  padding: 8px;
+  width: 650px;
+  border-radius: 10px;
+  border: none;
+}
+
+.btnSearch {
+  margin-left: 10px;
+  padding-left: 20px;
+  padding: 8px 0;
+  width: 100px;
+  border-radius: 10px;
+  border: none;
+  background-color:chocolate;
+}
+
+.btnSearch:hover {
+  background-color: #091f40;
+}
+
+.usersession  {
+  font-size: 20px;
+  margin-right: 20px;
+}
